@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.7з filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.ext filter=lfs diff=lfs merge=lfs -text
+project/** filter=lfs diff=lfs merge=lfs -text
+webgl_build/** filter=lfs diff=lfs merge=lfs -text
